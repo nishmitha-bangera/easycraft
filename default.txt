@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <body class="homepage">   
+	 <head>
+	@include('include.head')
+	</head>
+	<header>
+	@include('include.header')
+	</header>
+	
+	<div id="main" class="row">
+
+            @yield('content')
+
+    </div>
+	@include('include.footer')
+@include('include.contact')
+
+	
+  </body>
+</html>
